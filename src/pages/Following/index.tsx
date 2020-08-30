@@ -8,7 +8,7 @@ import Heading from "../../components/Heading"
 import Title from "../../components/Title";
 import CategoryList from "../../components/CategoryList"
 import StreamList from  "../../components/StreamList";
-
+import ChannelList from "../../components/ChannelList"
 interface Item{
   /** dizer pra nossa aplicacão o que um item */
   key:string;
@@ -54,7 +54,7 @@ const Following: React.FC = () => {
       },
       {//first item
         key:'C3',
-        render:()=><View/>,
+        render:()=><StreamList/>,
       },
       {
         key:'OFFILINE_CHANNELS',
@@ -63,7 +63,7 @@ const Following: React.FC = () => {
       },
       {//first item
         key:'C4',
-        render:()=><View/>,
+        render:()=><ChannelList/>,
       },
     ];
     /**arrya que cotám apens os index dos elementos que são titulo */

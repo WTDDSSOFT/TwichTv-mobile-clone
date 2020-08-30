@@ -12,6 +12,7 @@ import {
   StreamAvatar,
   StreamUsername,
   StreamDescription,
+  StreamCategory,
   TagRow,
   TagView,
   TagText,
@@ -32,9 +33,15 @@ const StreamList: React.FC = () => {
             <StreamAvatar/>
               <StreamUsername numberOfLines={1}>rdz_oficial</StreamUsername>
             </StreamHeader>
+          
             <StreamDescription numberOfLines={1}>
               Front-end com next.js, chakra UI e GraphQl
             </StreamDescription>
+
+            <StreamCategory numberOfLines={1} >
+              Science & tecnology
+            </StreamCategory>
+            
           </StreamRow>
        
 

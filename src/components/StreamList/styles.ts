@@ -38,20 +38,33 @@ background: ${colors.tag};
 `;
 
 export const StreamUsername = styled.Text`
-color: ${colors.black};
-margin-left: 5px;
-font-family:roboto_700;
+  color: ${colors.black};
+  margin-left: 5px;
+  font-family:roboto_700;
 `;
 
 export const StreamDescription = styled.Text`
   color: ${colors.black};
 `;
 
+export const StreamCategory = styled.Text`
+  color: ${colors.gray};
+  font-family:roboto_500;
+`;
 
-export const StreamCategory = styled.Text``;
+export const TagView = styled.Text`
+margin-top:8px;
+flex-direction:row;`;
 
-export const TagRow = styled.Text``;
+export const TagRow = styled.Text`
+  background: ${colors.tag};
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right:5px;
+`;
 
-export const TagView = styled.Text``;
-
-export const TagText = styled.Text``;
+export const TagText = styled.Text`
+  color: ${colors.black};
+  font-family: roboto_500;
+  font-size:13px;
+`;
